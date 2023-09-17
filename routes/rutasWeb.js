@@ -21,6 +21,10 @@ router.get('/about', function(req, res, next){
     next()
 });
 
+router.get('/notfound', function(req, res, next){
+    res.render('notfound', { titulo: "notfound"})
+    next()
+});
 
 
 module.exports = router;

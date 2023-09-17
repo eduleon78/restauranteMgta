@@ -1,0 +1,14 @@
+body {
+    background-color: #61122f;
+    color: #fff;
+}
+
+.mensaje {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #f6b319;
+}

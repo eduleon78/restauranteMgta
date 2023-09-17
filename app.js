@@ -31,7 +31,7 @@ app.use(function(err, req, res, next) {
   });
 
 app.use((req, res, next) => {
-  res.status(404).render("404", {
+  res.status(404).render('notfound', {
     titulo: "404",
     descripcion: "Titulo del sitio web"
   });
